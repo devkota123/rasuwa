@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Rasuwa | Himalayan Eco-Adventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="python">
+</head>
+<body>
+    <nav>
+        <a href="#about">The Spirit</a>
+        <a href="#tours">Expeditions</a>
+        <a href="#gallery">Visions</a>
+        <a href="#contact">Join Us</a>
+    </nav>
+    <header>
+        <div class="hero-content">
+            <p class="hero-tagline">Experience the Soul of the Himalayas</p>
+            <h1>RASUWA</h1>
+            <a href="#tours" class="btn-adventure">Start Your Journey</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">The Spirit</a>
+        <a href="#tours">Expeditions</a>
+        <a href="#gallery">Visions</a>
+        <a href="#contact">Join Us</a>
+    </nav>
+    
+    <section id="about">
+        <h2>The Untamed Beauty</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+            <p style="font-size: 1.2rem; line-height: 2;">
+                Rasuwa isn't just a destination; it's a whisper from the ancient peaks. Home to the sacred Langtang Valley and the elusive Red Panda, this district invites you to tread softly on pristine trails. Every step supports the resilient Tamang communities and preserves the wild heart of Nepal.
+            </p>
+            <img src="img/bhayga.png" style="width: 60%; height: 50%; border-radius: 20px; box-shadow: 0 20px 50px rgba(99, 81, 81, 0.5);" alt="Culture">
+        </div>
+    </section>
+<section id="tours">
+    <h2>Choose Your Expedition</h2>
+
+    <div class="tour-grid">
+        <div class="tour-card">
+            <div class="tour-img" style="background-image: url('img/Langtang Valley.png');"></div>
+            <div class="tour-info">
+                <h3>Langtang Valley Trek</h3>
+                <p>
+                    Journey through breathtaking Himalayan landscapes, frozen waterfalls,
+                    and ancient rhododendron forests while experiencing authentic mountain culture.
+                </p>
+                <p style="margin-top: 15px; color: var(--accent); font-weight: bold;">
+                    $300 · 5 Days
+                </p>
+            </div>
+        </div>
+
+        <div class="tour-card">
+            <div class="tour-img" style="background-image: url('img/lake.png');"></div>
+            <div class="tour-info">
+                <h3>Gosaikunda Lake Trek</h3>
+                <p>
+                    Trek to the sacred alpine lakes of Gosaikunda, surrounded by snow-capped peaks,
+                    offering spiritual significance, serene beauty, and stunning mountain views.
+                </p>
+                <p style="margin-top: 15px; color: var(--accent); font-weight: bold;">
+                    $200 · 3 Days
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+    <section id="gallery">
+        <h2>Wildlife of Rasuwa</h2>
+        <div class="gallery-grid">
+            <img src="img/climbing.png" alt="Mountain">
+            <img src="img/Trek.png" alt="Trek">
+            <img src="img/snow-leopards.png" alt="Snow Leopard ">
+            <img src="img/Red Panda.png" alt="Red Panda">
+        </div>
+    </section>
+    
+<section id="contact">
+    <h2>Write Your Story</h2>
+    <p>Adventure is calling. Will you answer?</p>
+
+    <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+
+<footer>
+    <p>&copy; 2026 Rasuwa Eco-Tourism | Designed for Seekers & Explorers</p>
+</footer>
+</body>
+</html>
